@@ -1,0 +1,242 @@
+:root {
+    --main-bg-color: #fffffd;
+    --purp: #5528ff;
+    --headline-color: #202020;
+    --about-color: #4f4f4f;
+    --border-it: 1px solid black;
+    --font-var: "Ubuntu", sans-serif;
+  }
+  
+  body {
+    font-family: var(--font-var);
+    background: var(--main-bg-color);
+  }
+  
+  nav,
+  footer {
+    padding: 1.5rem;
+    color: var(--headline-color);
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  #logo-title {
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  
+  #nav-items {
+    margin-left: auto;
+    font-size: 12px;
+  }
+  
+  #nav-items a {
+    padding: 1px 20px 1px 20px;
+  }
+  
+  #social-media {
+    margin-left: auto;
+    margin-right: 120px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+  }
+  
+  main {
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  #headline {
+    font-size: 42px;
+    color: #197989;
+    padding-top: 4rem;
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+  
+  #about {
+    color: var(--about-color);
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.9;
+    width: 50%;
+    line-height: 34px;
+    padding-bottom: 1em;
+  }
+  
+  .purple-button {
+    background:#197989;
+    color:#f7f7f7;
+    font-family: var(--font-var);
+    font-size: 1rem;
+    font-weight: 300;
+    border-radius: 10px;
+    height: 3rem;
+    width: 11rem;
+    border:none;
+    cursor: pointer;
+  }
+  
+  .purple-button:hover {
+    background-color: #f7f7f7;
+    color: #197989;
+  }
+  
+  .purple-button--small {
+    background-color: #197989;
+    color:"white";
+    font-family: var(--font-var);
+    border-radius: 5px;
+    height: 3rem;
+    width: 11rem;
+  }
+  
+  .page-div-container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .page-div {
+    padding: 0;
+    width: 150px;
+    opacity: 0.25;
+    font-size: 0.75rem;
+  }
+  
+  #our-services {
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 4rem;
+  }
+  
+  .service-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .service-item-title {
+    padding-bottom: 0.7rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  
+  .service-item-description {
+    font-size: 0.8rem;
+    font-weight: 400;
+    opacity: 0.4;
+    align-self: flex-end;
+    line-height: 1.4rem;
+  }
+  
+  .icon-container {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    padding-right: 2em;
+  }
+  
+  .media-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  }
+  
+  #our-clients {
+    margin: 0 auto;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .client-item {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  #our-team {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 120px;
+  }
+  
+  .team-member-container {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .team-member-photo img {
+    border-radius: 50%;
+  }
+  
+  .team-member-photo {
+    padding-right: 20px;
+  }
+  
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+  }
+  
+  .team-member-name {
+    font-weight: 800;
+    font-size: 20px;
+    align-self: flex-start;
+  }
+  
+  .team-member-role {
+    font-weight: 200;
+    font-size: 12px;
+    opacity: 0.4;
+    padding-top: 10px;
+  }
+  
+  footer {
+    background: #f7f7f7;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  #footer-logo {
+    padding-left: 70px;
+  }
+  span,strong,a,h1{
+    color:#197989
+  }
+  .get{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background: #197989;
+    color: #f7f7f7;
+  }
+  .get:hover{
+    cursor: pointer;
+    background: #f7f7f7;
+    color: #197989;
+  }
+  p{
+    color: #197989;
+  }
+  
